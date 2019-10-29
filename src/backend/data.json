@@ -1,0 +1,89 @@
+{"cards" : [
+    {
+        "id": 1,
+        "user_id": 1,
+        "last_4": "1234",
+        "brand": "visa",
+        "expired_at": "2014-01-01"
+    },
+    {
+        "id": 2,
+        "user_id": 2 ,
+        "last_4": "5678",
+        "brand": "master_card",
+        "expired_at": "2015-01-01"
+    },
+    {
+        "id": 3,
+        "user_id": 3,
+        "last_4": "9012",
+       "brand": "jcb",
+        "expired_at": "016-01-01"
+    }
+],
+
+"transferts" : [
+    { 
+        "id": 1,
+        "debited_wallet_id": 1,
+        "credited_wallet_id": 2,
+        "amount": 1500
+    },
+    { 
+        "id": 2,
+        "debited_wallet_id": 2,
+        "credited_wallet_id": 3,
+        "amount": 4800
+    },
+    { 
+        "id": 3,
+        "debited_wallet_id": 3,
+        "credited_wallet_id": 1,
+        "amount": 200
+    }
+],
+"users" : [
+    {   
+        "id": 1,
+        "first_name": "Marc",
+        "last_name": "Jale",
+        "email": "mjale@wt.io",
+        "password": "1234",
+        "is_admin": false 
+    },
+    {   
+        "id": 2,
+        "first_name": "Adrien",
+        "last_name": "Bourget",
+        "email": "abourget@wt.io",
+        "password": "5678",
+        "is_admin": false 
+    },
+    {   
+        "id": 3,
+        "first_name": "Alain",
+        "last_name": "ginet",
+        "email": "aginet@wt.io",
+        "password": "9012",
+        "is_admin": false 
+    }
+],
+
+"wallets" : [
+    {
+        "id": 1,
+        "user_id": 1,
+        "balance": 10000
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "balance": 20000
+    },
+    {
+        "id": 3,
+        "user_id": 3,
+        "balance": 30000
+    }
+]}
+
